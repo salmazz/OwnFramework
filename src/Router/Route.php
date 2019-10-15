@@ -8,6 +8,7 @@ use Phplite\Http\Request;
 use ReflectionClass;
 use ReflectionException;
 use Psr\Log\InvalidArgumentException;
+use Phplite\View\View;
 
 class Route{
     /**
@@ -156,7 +157,7 @@ class Route{
           }
         }
       }
-      return View::render('error 404');
+      return View::render('errors.404');
     }
 
     /**
