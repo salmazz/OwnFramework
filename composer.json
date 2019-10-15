@@ -1,6 +1,7 @@
 {
     "name": "salmazz/framework",
     "description": "phplite",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
